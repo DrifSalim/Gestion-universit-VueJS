@@ -9,7 +9,18 @@ import { RouterLink } from 'vue-router'
         </a>
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
-
+          <li class="nav-item">
+            <RouterLink class="nav-link" active-class="active" to="/">Accueil</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" active-class="active" to="/Parcours">Parcours</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" active-class="active" to="/ues">UEs</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" active-class="active" to="/etudiants">Etudiants</RouterLink>
+          </li>
         </ul>
         <hr>
         <div class="dropdown">
@@ -39,5 +50,6 @@ a {
 .navigation {
     background-color: #273656;
     color: white !important;
+    height: 100vh;
 }
 </style>
